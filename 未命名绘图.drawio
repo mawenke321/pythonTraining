@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2022-07-20T12:35:24.634Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.1.3" etag="Xa24NCAUpNshj2ulG1zb" type="github"><diagram id="m-XqD8QYuLjzd0SzDQlv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-20T13:08:22.992Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="tFIyJGOO20NIUQ8aIngS" version="20.1.3" type="github">
+  <diagram id="m-XqD8QYuLjzd0SzDQlv" name="第 1 页">
+    <mxGraphModel dx="1038" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wc-nSMFcYsFkz_3ypyFt-7" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="130" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="wc-nSMFcYsFkz_3ypyFt-8" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wc-nSMFcYsFkz_3ypyFt-7">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wc-nSMFcYsFkz_3ypyFt-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="wc-nSMFcYsFkz_3ypyFt-7">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="wc-nSMFcYsFkz_3ypyFt-10" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wc-nSMFcYsFkz_3ypyFt-7">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wc-nSMFcYsFkz_3ypyFt-17" value="andromeida" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="120" y="10" width="580" height="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="wc-nSMFcYsFkz_3ypyFt-20" value="const.py" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="160" y="60" width="180" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="wc-nSMFcYsFkz_3ypyFt-21" value="views" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="430" width="310" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="wc-nSMFcYsFkz_3ypyFt-22" value="v1/common" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="170" y="460" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wc-nSMFcYsFkz_3ypyFt-23" value="const.py" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="190" y="490" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wc-nSMFcYsFkz_3ypyFt-27" value="«get_ava_wf_types»&lt;br&gt;&lt;b&gt;fetch_avaliable_worktypes&lt;/b&gt;" style="html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="500" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wc-nSMFcYsFkz_3ypyFt-28" value="utils/const" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="150" y="740" width="310" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="wc-nSMFcYsFkz_3ypyFt-29" value="flow_const.py" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="770" width="270" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="wc-nSMFcYsFkz_3ypyFt-30" value="AvaliableWorkFlow" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="800" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="wc-nSMFcYsFkz_3ypyFt-31" value="ava_workflow_list" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wc-nSMFcYsFkz_3ypyFt-30">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
